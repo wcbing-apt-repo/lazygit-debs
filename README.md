@@ -7,13 +7,13 @@ Self-packaged [lazygit](https://github.com/jesseduffield/lazygit), suitable for 
 
 ### 直接下载 .deb 文件
 
-直接从 [Releases](https://github.com/wcbing-build/lazygit-debs/releases) 下载 .deb 文件。
+直接从 [Releases](https://github.com/wcbing-apt-repo/lazygit-debs/releases) 下载 .deb 文件。
 
 ### 添加 apt 仓库
 
 ```sh
 echo "Types: deb
-URIs: https://github.com/wcbing-build/lazygit-debs/releases/latest/download/
+URIs: https://github.com/wcbing-apt-repo/lazygit-debs/releases/latest/download/
 Suites: ./
 Trusted: yes" | sudo tee /etc/apt/sources.list.d/lazygit.sources
 sudo apt update
